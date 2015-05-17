@@ -8,7 +8,7 @@ Banyak definisi tapi mudahnya adalah untuk menghasilkan dokumen yang mudah dibac
 ##### Baiklah, langsung saja kita mulai
 Siip
 
-### Basic Mardown
+### Basic Markdown
 
 ###### 1. Membuat Paragraf
 Untuk membuat paragraf, cukup dengan mengetik beberapa kata kemudian diikuti dengan 1 atau beberapa enter (ganti baris)
@@ -293,6 +293,7 @@ Oh iya, dokumen ini juga ditulis dengan format markdown, jadi silakan di Raw unt
 
 ## Sumber Bacaan :
 Diantaranya :
+
 1. https://guides.github.com/features/mastering-markdown/
 2. http://daringfireball.net/projects/markdown/
 
