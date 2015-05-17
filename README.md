@@ -3,10 +3,7 @@ Tutorial Markdown Bahasa Indonesia
 
 ### Sedikit tanya jawab (tanya sendiri, jawab sendiri)
 ##### Apa itu Markdown?
-Banyak definisi tapi mudahnya adalah untuk menghasilkan halaman web tanpa harus bingung dengan sintax HTML
-
-##### Jadi Markdown relative dengan HTML?
-Yap.
+Banyak definisi tapi mudahnya adalah untuk menghasilkan dokumen yang mudah dibaca dan mudah ditulis.
 
 ##### Baiklah, langsung saja kita mulai
 Siip
@@ -183,16 +180,119 @@ Inline code adalah menuliskan syntax ke dalam markdown. Caranya pake backtit (`)
 Untuk menulis syntax code dalam bentuk block (lebih dari 1 baris). Caranya dengan menggunakan 3 buah backtit (```)
 
 ##### Contoh :
-` ``` `
-`var foo = 'bar';`
-` ``` `
+    ```
+    `var foo = 'bar';`
+    ```
 
 ##### Hasilnya :
 ```
 `var foo = 'bar';`
 ```
 
+### GFM (Github Flavored Markdown)
+**Apa itu?** Markdown rasa Github?? :smile:
+
+##### 10. Syntax highlighting
+Misal kita mau bikin code javascript tinggal ketik 'javascript' setelah 3 backtick pembuka
+
+##### Contoh:
+    ```javascript
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+    ```
+
+##### Hasilnya :
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+Atau dengan memberi indentasi sebanyak 4 spasi akan memberikan hasil yang sama
+```
+        function fancyAlert(arg) {
+          if(arg) {
+            $.facebox({div:'#foo'})
+          }
+        }
+```
+##### 11. Task List
+Ini menarik, kita bisa membuat checkbox seperti pada to do list app. Caranya cukup dengan `[+]` yang artinya **centang** dan `[ ]` yang artinya ga ke centang
+
+##### Contoh :
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+##### Hasilnya :
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+##### 12. Tables
+Kita bisa bikin table dengan membuat memberi `-` di bawah baris header (baris pertama) dan memisahkan antar column dengan tanda pipa `|`.
+
+##### Contoh :
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+
+##### Hasilnya :
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+##### 13. Mention @username untuk user di Github
+Caranya seperti mention di twitter. Pake `@` diikuti dengan username user yang akan dimention
+
+##### Contoh :
+```
+@mrofi akan saya mention
+```
+
+##### Hasilnya :
+@mrofi akan saya mention
+
+##### 14. Striketrough 
+Untuk membuat ~~ Kayak gini ~~ caranya menggunakan 2 buah tilde `~~`
+
+##### Contoh :
+```
+~~Ini adalah stikrtrough~~
+```
+##### Hasilnya :
+~~Ini adalah stikrtrough~~
+
+##### 15. Emoji
+Keren kita bisa pasang emo di markdown nya github. Caranya cukup lihat di sini [Contekan Emoji](http://www.emoji-cheat-sheet.com/)
+
+##### Contoh :
+```
+:smile: :kissing_heart: :heart_eyes: :camel: :poop:
+```
+##### Hasilnya :
+:smile: :kissing_heart: :heart_eyes: :camel: :poop:
 
 
+## What Next ?
+Silakan kembangkan sendiri. Anda sudah siap untuk menulis di github. :smile: Maksudnya berkontribusi di dunia opensource
+Oh iya, dokumen ini juga ditulis dengan format markdown, jadi silakan di Raw untuk melihat syntax aslinya. 
 
+## Sumber Bacaan :
+Diantaranya :
+1. https://guides.github.com/features/mastering-markdown/
+2. http://daringfireball.net/projects/markdown/
 
