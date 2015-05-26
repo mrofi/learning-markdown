@@ -222,7 +222,7 @@ Atau dengan memberi indentasi sebanyak 4 spasi akan memberikan hasil yang sama
         }
 ```
 ##### 11. Task List
-Ini menarik, kita bisa membuat checkbox seperti pada to do list app. Caranya cukup dengan `[+]` yang artinya **centang** dan `[ ]` yang artinya ga ke centang
+Ini menarik, kita bisa membuat checkbox seperti pada to do list app. Caranya cukup dengan `[x]` yang artinya **centang** dan `[ ]` yang artinya ga ke centang
 
 ##### Contoh :
 ```
